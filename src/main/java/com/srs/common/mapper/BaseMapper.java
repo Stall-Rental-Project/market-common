@@ -1,4 +1,4 @@
-package com.srs.common.common.mapper;
+package com.srs.common.mapper;
 
 import org.apache.commons.lang3.ObjectUtils;
 import org.modelmapper.Converter;

@@ -1,4 +1,4 @@
-package com.srs.common.common.util;
+package com.srs.common.util;
 
 import org.flywaydb.core.internal.util.StringUtils;
 
