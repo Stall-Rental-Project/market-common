@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.srs</groupId>
+  <artifactId>common</artifactId>
+  <versioning>
+    <versions>
+      <version>DEV-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20220928170800</lastUpdated>
+  </versioning>
+</metadata>

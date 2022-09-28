@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.srs</groupId>
+  <artifactId>common</artifactId>
+  <versioning>
+    <lastUpdated>20220928170800</lastUpdated>
+    <snapshot>
+      <timestamp>20220928.170800</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>DEV-20220928.170800-1</value>
+        <updated>20220928170800</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>DEV-20220928.170800-1</value>
+        <updated>20220928170800</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>DEV-SNAPSHOT</version>
+</metadata>
