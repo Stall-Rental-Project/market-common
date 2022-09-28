@@ -169,22 +169,21 @@
 
     <distributionManagement>
         <repository>
-            <id>stall-rental-system.market-common</id>
+            <id>internal</id>
             <name>Market Common</name>
-            <url>file:///D:/Stall Rentall System/market-common</url>
+            <url>file://${project.build.directory}/mvn-repo</url>
         </repository>
     </distributionManagement>
-    <build>
-        <plugins>
-            <plugin>
-                <artifactId>maven-deploy-plugin</artifactId>
-                <version>2.8.2</version>
-                <configuration>
-                    <altDeploymentRepository>stall-rental-system.market-common::default::file:///D:/Stall Rentall System/market-common</altDeploymentRepository>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
-
+<build>
+    <plugins>
+        <plugin>
+            <artifactId>maven-deploy-plugin</artifactId>
+            <version>2.8.2</version>
+            <configuration>
+                <altDeploymentRepository>internal::default::file://${project.build.directory}/mvn-repo</altDeploymentRepository>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
 
 </project>
