@@ -31,32 +31,6 @@
         <java.version>11</java.version>
     </properties>
 
-    <!--    <name>Market Common Library for MHMarket</name>-->
-    <!--    <description>Sample library for stall rental system project</description>-->
-    <!--    <url>https://github.com/Stall-Rental-Project/market-common</url>-->
-
-    <!--    <licenses>-->
-    <!--        <license>-->
-    <!--            <name>MIT License</name>-->
-    <!--            <url>http://www.opensource.org/licenses/mit-license.php</url>-->
-    <!--        </license>-->
-    <!--    </licenses>-->
-
-    <!--    <developers>-->
-    <!--        <developer>-->
-    <!--            <name>Hoang Ngo</name>-->
-    <!--            <email>hoanggg2110@gmail.com</email>-->
-    <!--            <organization>Stall-Rental-Project</organization>-->
-    <!--            <organizationUrl>https://github.com/Stall-Rental-Project/</organizationUrl>-->
-    <!--        </developer>-->
-    <!--    </developers>-->
-
-    <!--    <scm>-->
-    <!--        <connection>scm:git:git://github.com/Stall-Rental-Project/market-common.git</connection>-->
-    <!--        <developerConnection>scm:git:ssh://github.com/Stall-Rental-Project/market-common.git</developerConnection>-->
-    <!--        <url>https://github.com/Stall-Rental-Project/market-common.git</url>-->
-    <!--    </scm>-->
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
