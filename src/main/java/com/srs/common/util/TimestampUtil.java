@@ -2,6 +2,7 @@ package com.srs.common.util;
 
 import org.flywaydb.core.internal.util.StringUtils;
 
+import java.sql.Timestamp;
 import java.time.OffsetDateTime;
 import java.time.OffsetTime;
 import java.time.ZoneId;
@@ -110,5 +111,8 @@ public class TimestampUtil {
         return endOfDate(lastDate.withOffsetSameLocal(TimestampUtil.DEFAULT_OFFSET));
     }
 
+    public static OffsetDateTime timeStampToOffsetDateTime(Timestamp timestamp) {
+        return OffsetDateTime.ofInstant(timestamp.toInstant(), ZoneId.of("UTC"));
+    }
 
 }
