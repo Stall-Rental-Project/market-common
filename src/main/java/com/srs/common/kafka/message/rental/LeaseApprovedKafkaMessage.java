@@ -8,7 +8,6 @@ public class LeaseApprovedKafkaMessage implements Serializable {
     private String floorCode;
     private String stallCode;
     private UUID applicationId;
-    private int leaseStatus;
 
     public String getMarketCode() {
         return marketCode;
@@ -42,12 +41,4 @@ public class LeaseApprovedKafkaMessage implements Serializable {
         this.applicationId = applicationId;
     }
 
-
-    public int getLeaseStatus() {
-        return leaseStatus;
-    }
-
-    public void setLeaseStatus(int leaseStatus) {
-        this.leaseStatus = leaseStatus;
-    }
 }
