@@ -24,6 +24,8 @@ public class NumericUtil {
         return new BigDecimal(number).setScale(2, RoundingMode.HALF_UP).toString();
     }
 
+
+
     public static void main(String[] args) {
         System.out.println(dFormatter.format(2.1));
         System.out.println(sanitize(2.1));

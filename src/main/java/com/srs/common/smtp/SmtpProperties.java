@@ -34,4 +34,28 @@ public class SmtpProperties {
         this.username = env.getRequiredProperty("spring.mail.username");
         this.password = env.getRequiredProperty("spring.mail.password");
     }
+
+    public String getDefaultSender() {
+        return defaultSender;
+    }
+
+    public List<String> getDefaultCcEmails() {
+        return defaultCcEmails;
+    }
+
+    public String getHost() {
+        return host;
+    }
+
+    public String getPort() {
+        return port;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public String getPassword() {
+        return password;
+    }
 }

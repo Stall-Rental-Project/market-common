@@ -140,6 +140,18 @@
             <scope>compile</scope>
         </dependency>
 
+        <dependency>
+            <groupId>org.apache.velocity</groupId>
+            <artifactId>velocity-engine-core</artifactId>
+            <version>${velocity-core.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.velocity.tools</groupId>
+            <artifactId>velocity-tools-generic</artifactId>
+            <version>${velocity-tool.version}</version>
+        </dependency>
+
     </dependencies>
 
 
